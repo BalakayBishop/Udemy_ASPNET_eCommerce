@@ -15,15 +15,15 @@
     <table class="table table-bordered table-striped">
         <thead>
             <tr>
-                <th>Category Name</th>
-                <th>Display Order</th>
-                <th>Actions</th>
+                <th scope="col">Category Name</th>
+                <th scope="col">Display Order</th>
+                <th scope="col">Actions</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var obj in Model.OrderBy(u => u.DisplayOrder))
             {
-                <tr>
+                <tr class="table-info">
                     <td>@obj.Name</td>
                     <td>@obj.DisplayOrder</td>
                     <td>
