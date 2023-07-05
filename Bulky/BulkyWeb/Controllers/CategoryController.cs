@@ -57,27 +57,19 @@ namespace BulkyWeb.Controllers
             // Category? categoryFromDb2 = _db.Categories.FirstOrDefault(u => u.Id == id); *this is a very good option
             // Category? categoryFromDb3 = _db.Categories.Where(u => u.Id == id).FirstOrDefault(); *this option is usually used when multiple attributes need to be considered in the Where()
 
-
-
             if (categoryFromDb == null) { return NotFound(); }
 
+            // passing this obj allows ASP to populate fields in HTML on page load.
             return View(categoryFromDb);
         }
 
         [HttpPost]
         public IActionResult Edit(Category obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("name", "Cateogry Name cannot match the Display Name");
-            }
-            if (obj.Name != null && obj.Name.ToLower() == "test")
-            {
-                ModelState.AddModelError("name", "Test is an invalid value");
-            }
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
+                // using .Update allows for ease of updating record based on the ID from the obj passed
+                _db.Categories.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
