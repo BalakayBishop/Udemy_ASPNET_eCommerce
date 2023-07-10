@@ -2502,7 +2502,8 @@
           "Bulky.Models": "1.0.0",
           "Bulky.Utility": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0-preview.5.23280.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.5.23280.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.5.23280.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "8.0.0-preview.5.23313.2"
         },
         "runtime": {
           "Bulky.DataAccess.dll": {}

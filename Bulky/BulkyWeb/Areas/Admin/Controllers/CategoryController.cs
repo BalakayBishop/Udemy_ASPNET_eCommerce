@@ -3,8 +3,9 @@ using BulkyWeb.DataAccess.Data;
 using BulkyWeb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWeb.Models.Controllers
+namespace BulkyWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -19,7 +20,7 @@ namespace BulkyWeb.Models.Controllers
             return View(objCategoryList);
         }
 
-        public IActionResult Create() 
+        public IActionResult Create()
         {
             return View();
         }
@@ -27,7 +28,7 @@ namespace BulkyWeb.Models.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            if(obj.Name == obj.DisplayOrder.ToString())
+            if (obj.Name == obj.DisplayOrder.ToString())
             {
                 ModelState.AddModelError("name", "Cateogry Name cannot match the Display Name");
             }
@@ -42,14 +43,14 @@ namespace BulkyWeb.Models.Controllers
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
-            
+
             return View();
-            
+
         }
 
         public IActionResult Edit(int? id)
         {
-            if(id == null || id == 0) { return NotFound(); }
+            if (id == null || id == 0) { return NotFound(); }
 
             Category? categoryFromDb = _unitOfWork.Category.GetFirstOrDefult(u => u.Id == id);
 
