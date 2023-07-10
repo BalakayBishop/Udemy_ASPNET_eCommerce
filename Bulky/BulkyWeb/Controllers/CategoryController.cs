@@ -1,20 +1,21 @@
-﻿using BulkyWeb.Data;
-using BulkyWeb.Models;
+﻿using Bulky.DataAccess.Repository.IRepository;
+using BulkyWeb.DataAccess.Data;
+using BulkyWeb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWeb.Controllers
+namespace BulkyWeb.Models.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly ICategoryRepository _categoryRepo;
+        public CategoryController(ICategoryRepository db)
         {
-            _db = db;
+            _categoryRepo = db;
         }
 
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _db.Categories.ToList();
+            List<Category> objCategoryList = _categoryRepo.GetAll().ToList();
             return View(objCategoryList);
         }
 
@@ -36,8 +37,8 @@ namespace BulkyWeb.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _categoryRepo.Add(obj);
+                _categoryRepo.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
@@ -50,17 +51,10 @@ namespace BulkyWeb.Controllers
         {
             if(id == null || id == 0) { return NotFound(); }
 
-            // made this field nullable in order to remove warnings since we have logic checks
-            // Find() only works with Primary Key
-            Category? categoryFromDb = _db.Categories.Find(id);
-
-            // other options for record retrieval
-            // Category? categoryFromDb2 = _db.Categories.FirstOrDefault(u => u.Id == id); *this is a very good option
-            // Category? categoryFromDb3 = _db.Categories.Where(u => u.Id == id).FirstOrDefault(); *this option is usually used when multiple attributes need to be considered in the Where()
+            Category? categoryFromDb = _categoryRepo.GetFirstOrDefult(u => u.Id == id);
 
             if (categoryFromDb == null) { return NotFound(); }
 
-            // passing this obj allows ASP to populate fields in HTML on page load.
             return View(categoryFromDb);
         }
 
@@ -69,9 +63,8 @@ namespace BulkyWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                // using .Update allows for ease of updating record based on the ID from the obj passed
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _categoryRepo.Update(obj);
+                _categoryRepo.Save();
                 TempData["success"] = "Category edited successfully";
                 return RedirectToAction("Index");
             }
@@ -84,7 +77,7 @@ namespace BulkyWeb.Controllers
         {
             if (id == null || id == 0) { return NotFound(); }
 
-            Category? categoryFromDb = _db.Categories.Find(id);
+            Category? categoryFromDb = _categoryRepo.GetFirstOrDefult(u => u.Id == id);
 
             if (categoryFromDb == null) { return NotFound(); }
 
@@ -94,11 +87,11 @@ namespace BulkyWeb.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int? id)
         {
-            Category? obj = _db.Categories.Find(id);
+            Category? obj = _categoryRepo.GetFirstOrDefult(u => u.Id == id);
             if (obj == null) { return NotFound(); }
 
-            _db.Remove(obj);
-            _db.SaveChanges();
+            _categoryRepo.Remove(obj);
+            _categoryRepo.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
 
