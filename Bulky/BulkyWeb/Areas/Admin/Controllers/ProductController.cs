@@ -1,5 +1,6 @@
 ﻿using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models.Models;
+using Bulky.Models.Models.ViewModels;
 using BulkyWeb.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -32,8 +33,19 @@ namespace BulkyWeb.Areas.Admin.Controllers
                 });
 
             // using ViewBag to dynamically pass the Categorylist into Edit view
-            ViewBag.CategoryList = Categorylist;
-            return View();
+            // ViewBag.CategoryList = Categorylist;
+
+            // option of ViewData
+            //ViewData["CategoryList"] = Categorylist;
+
+            // Creating and passing ProductVM
+            ProductVM productVM = new()
+            {
+                CategoryList = Categorylist,
+                Product = new Product()
+            };
+
+            return View(productVM);
         }
 
         [HttpPost]
