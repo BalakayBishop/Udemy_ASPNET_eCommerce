@@ -1,8 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "seuYukl/suFJiUTGHjh5E3Z1FEgcE2PYRyCuqCu3sxNKzkqWHktJAofcNEg8gXfymvkfpRdfZP46ZmMh5F0vyA==",
+  "dgSpecHash": "Np8UB4i7EGILA1+RYSSwJ2efSB9dOGTHUx9cDxikqfY+1QL3bcDUQJ8wRZVP7xdDX4myewEU973erWieWLq/Zg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\balak\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.design.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0-preview.6.23329.4\\microsoft.entityframeworkcore.relational.8.0.0-preview.6.23329.4.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.caching.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.6.23329.7\\microsoft.extensions.caching.memory.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.configuration.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencymodel.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.6.23329.7\\microsoft.extensions.options.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.6.23329.7\\microsoft.extensions.primitives.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\system.text.encodings.web\\8.0.0-preview.6.23329.7\\system.text.encodings.web.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\system.text.json\\8.0.0-preview.6.23329.7\\system.text.json.8.0.0-preview.6.23329.7.nupkg.sha512"
+  ],
   "logs": []
 }

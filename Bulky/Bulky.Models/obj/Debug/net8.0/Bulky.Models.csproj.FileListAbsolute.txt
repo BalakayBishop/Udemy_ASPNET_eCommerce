@@ -1,4 +1,5 @@
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\bin\Debug\net8.0\Bulky.Models.deps.json
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\bin\Debug\net8.0\Bulky.Models.runtimeconfig.json
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\bin\Debug\net8.0\Bulky.Models.dll
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\bin\Debug\net8.0\Bulky.Models.pdb
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.csproj.AssemblyReference.cache
@@ -10,4 +11,5 @@ D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Mod
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.dll
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\refint\Bulky.Models.dll
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.pdb
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\Bulky.Models.genruntimeconfig.cache
 D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Models\obj\Debug\net8.0\ref\Bulky.Models.dll
