@@ -18,20 +18,21 @@ namespace BulkyWeb.Areas.Admin.Controllers
         public IActionResult Index()
         {
             List<Product> objProductList = _unitOfWork.Product.GetAll().ToList();
-
-            // Using projection to convert Category list into IEnumerable 
-            IEnumerable<SelectListItem> Categorylist = _unitOfWork.Category.GetAll()
-                .Select(u => new SelectListItem
-            {
-                Text = u.Name,
-                Value = u.Id.ToString()
-            });
-
             return View(objProductList);
         }
 
         public IActionResult Create()
         {
+            // Using projection to convert Category list into IEnumerable 
+            IEnumerable<SelectListItem> Categorylist = _unitOfWork.Category.GetAll()
+                .Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+
+            // using ViewBag to dynamically pass the Categorylist into Edit view
+            ViewBag.CategoryList = Categorylist;
             return View();
         }
 
