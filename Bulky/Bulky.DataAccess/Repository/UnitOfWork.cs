@@ -13,7 +13,7 @@ namespace Bulky.DataAccess.Repository
         // an private class field (attr) of type AppDbContext
         private ApplicationDbContext _db;
 
-        // a public prop of type ICategoryRepo
+        // a public prop of type I____Repo
         public ICategoryRepository Category { get; private set; }
         public IProductRepository Product { get; private set; }
 

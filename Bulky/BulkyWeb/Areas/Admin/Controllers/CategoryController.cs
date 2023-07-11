@@ -45,7 +45,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
             }
 
             return View();
-
         }
 
         public IActionResult Edit(int? id)
@@ -71,7 +70,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
             }
 
             return View();
-
         }
 
         public IActionResult Delete(int? id)
@@ -95,7 +93,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
             _unitOfWork.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
-
         }
     }
 }
