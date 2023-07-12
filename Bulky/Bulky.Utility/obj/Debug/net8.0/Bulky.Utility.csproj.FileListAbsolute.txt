@@ -1,0 +1,13 @@
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.deps.json
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.dll
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.AssemblyReference.cache
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfoInputs.cache
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.AssemblyInfo.cs
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.sourcelink.json
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.dll
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Bulky.Utility.dll
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\Bulky.Utility.pdb
+D:\Projects\Udemy_ASPNET_eCommerce\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Bulky.Utility.dll
