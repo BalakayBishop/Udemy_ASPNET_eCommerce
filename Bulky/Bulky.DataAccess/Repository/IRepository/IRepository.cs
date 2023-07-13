@@ -10,8 +10,8 @@ namespace Bulky.DataAccess.Repository.IRepository
     public interface IRepository<T> where T : class
     {
         // T - Category or any other kind of model
-        IEnumerable<T> GetAll();
-        T GetFirstOrDefult(Expression<Func<T, bool>> filter); // this is used for the link operation to be used as param
+        IEnumerable<T> GetAll(string? includeProperties = null);
+        T GetFirstOrDefult(Expression<Func<T, bool>> filter, string? includeProperties = null); // this is used for the link operation to be used as param
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
