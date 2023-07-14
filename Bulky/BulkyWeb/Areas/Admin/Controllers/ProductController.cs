@@ -28,19 +28,16 @@ namespace BulkyWeb.Areas.Admin.Controllers
         public IActionResult Upsert(int? id) // Upsert == UpdateInsert
         {
             // Using projection to convert Category list into IEnumerable 
-            IEnumerable<SelectListItem> Categorylist = _unitOfWork.Category.GetAll()
-                .Select(u => new SelectListItem
+            ProductVM productVM = new()
+            {
+                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
                 {
                     Text = u.Name,
                     Value = u.Id.ToString()
-                });
-
-            ProductVM productVM = new()
-            {
-                CategoryList = Categorylist,
+                }),
                 Product = new Product()
             };
-            
+
             if (id == null || id == 0)
             {
                 // create
@@ -85,23 +82,25 @@ namespace BulkyWeb.Areas.Admin.Controllers
                     productVM.Product.ImageUrl = @"\images\product\" + fileName;
                 }
 
-                if (productVM.Product.Id == 0)
+                _unitOfWork.Product.Add(productVM.Product);
+
+                if (productVM.Product.Id is 0)
                 {
                     _unitOfWork.Product.Add(productVM.Product);
+                    TempData["success"] = "Product created successfully";
                 }
                 else
                 {
                     _unitOfWork.Product.Update(productVM.Product);
+                    TempData["success"] = "Product updated successfully";
                 }
 
                 _unitOfWork.Save();
-                TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");
             }
             else
             {
-                productVM.CategoryList = _unitOfWork.Category.GetAll()
-                .Select(u => new SelectListItem
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
                 {
                     Text = u.Name,
                     Value = u.Id.ToString()
