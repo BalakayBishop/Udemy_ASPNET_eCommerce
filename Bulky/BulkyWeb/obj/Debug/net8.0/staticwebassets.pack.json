@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\02a84579-ddd3-4b8a-b75f-ff9bf920b86a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\02a84579-ddd3-4b8a-b75f-ff9bf920b86a.jpg"
+    },
+    {
       "Id": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\4cfb6cbf-202f-4ed4-a710-005ee9d0c50e.jpg",
       "PackagePath": "staticwebassets\\images\\product\\4cfb6cbf-202f-4ed4-a710-005ee9d0c50e.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\523ee5e9-a9e4-4965-ac7b-b9023286dfe7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\523ee5e9-a9e4-4965-ac7b-b9023286dfe7.jpg"
     },
     {
       "Id": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\86b64e37-f820-4a8b-abd4-6e45fda28620.jpg",
