@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vZkRDvg38Les3zr8p66zyQpiWv9fLFZ2B3f0YfpNmo9Rg1R4bD+ZZxJlY71xz+cGGd4w0Ypa857dX1PgVm1Rzg==",
+  "dgSpecHash": "RauyR3w6bZMrIc57kEybZbyYJTupHnJ7Nsh5Hki7wV141z2tkrOvRSdeIy4jsDi3XBood9pZ0MKTr8aAMWjt5Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
-    "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0-preview.6.23329.11\\microsoft.aspnetcore.cryptography.internal.8.0.0-preview.6.23329.11.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0-preview.6.23329.11\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0-preview.6.23329.11.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.abstractions\\2.2.0\\microsoft.aspnetcore.diagnostics.abstractions.2.2.0.nupkg.sha512",
@@ -45,6 +46,8 @@
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencymodel.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.0-preview.6.23329.11\\microsoft.extensions.identity.core.8.0.0-preview.6.23329.11.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.0-preview.6.23329.11\\microsoft.extensions.identity.stores.8.0.0-preview.6.23329.11.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.localization\\2.2.0\\microsoft.extensions.localization.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\2.2.0\\microsoft.extensions.localization.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512",

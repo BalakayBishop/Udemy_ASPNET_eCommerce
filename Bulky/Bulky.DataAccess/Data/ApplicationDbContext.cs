@@ -1,20 +1,22 @@
 ﻿using Bulky.Models.Models;
 using BulkyWeb.Models.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BulkyWeb.DataAccess.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
         {
-
         }
 
         // Creating new table in DB 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         // Seeding the DB when created a table in the DB
         protected override void OnModelCreating(ModelBuilder modelBuilder)
