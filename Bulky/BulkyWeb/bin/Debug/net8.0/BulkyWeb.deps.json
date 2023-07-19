@@ -3055,6 +3055,9 @@
         }
       },
       "Bulky.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.0-preview.6.23329.11"
+        },
         "runtime": {
           "Bulky.Utility.dll": {}
         }

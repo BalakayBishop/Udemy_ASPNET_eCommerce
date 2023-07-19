@@ -6,12 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.Models.Models.ViewModels
-{
-    public class ProductVM
-    {
+namespace Bulky.Models.Models.ViewModels {
+    public class ProductVM {
         public Product Product { get; set; }
-        
+
         [ValidateNever]
         public IEnumerable<SelectListItem> CategoryList { get; set; }
     }

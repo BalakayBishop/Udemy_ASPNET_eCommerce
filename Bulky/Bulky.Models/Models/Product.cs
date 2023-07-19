@@ -9,10 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.Models.Models
-{
-    public class Product
-    {
+namespace Bulky.Models.Models {
+    public class Product {
         [Key]
         public int Id { get; set; }
         [Required]
@@ -45,7 +43,7 @@ namespace Bulky.Models.Models
 
         [Display(Name = "Category")]
         public int CategoryId { get; set; }
-        
+
         [ForeignKey("CategoryId")]
         [ValidateNever]
         public Category? Category { get; set; }

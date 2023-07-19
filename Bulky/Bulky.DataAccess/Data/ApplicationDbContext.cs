@@ -4,13 +4,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyWeb.DataAccess.Data
-{
-    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
-    {
+namespace BulkyWeb.DataAccess.Data {
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser> {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-        {
+        : base(options) {
         }
 
         // Creating new table in DB 
@@ -19,8 +16,7 @@ namespace BulkyWeb.DataAccess.Data
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         // Seeding the DB when created a table in the DB
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Category>().HasData(
@@ -30,8 +26,7 @@ namespace BulkyWeb.DataAccess.Data
             );
 
             modelBuilder.Entity<Product>().HasData(
-                new Product
-                {
+                new Product {
                     Id = 1,
                     Title = "Fortune of Time",
                     Author = "Billy Spark",
@@ -44,8 +39,7 @@ namespace BulkyWeb.DataAccess.Data
                     CategoryId = 5,
                     ImageUrl = ""
                 },
-                new Product
-                {
+                new Product {
                     Id = 2,
                     Title = "Dark Skies",
                     Author = "Nancy Hoover",
@@ -58,8 +52,7 @@ namespace BulkyWeb.DataAccess.Data
                     CategoryId = 3,
                     ImageUrl = ""
                 },
-                new Product
-                {
+                new Product {
                     Id = 3,
                     Title = "Vanish in the Sunset",
                     Author = "Julian Button",
@@ -72,8 +65,7 @@ namespace BulkyWeb.DataAccess.Data
                     CategoryId = 2,
                     ImageUrl = ""
                 },
-                new Product
-                {
+                new Product {
                     Id = 4,
                     Title = "Cotton Candy",
                     Author = "Abby Muscles",
@@ -86,8 +78,7 @@ namespace BulkyWeb.DataAccess.Data
                     CategoryId = 2,
                     ImageUrl = ""
                 },
-                new Product
-                {
+                new Product {
                     Id = 5,
                     Title = "Rock in the Ocean",
                     Author = "Ron Parker",
@@ -100,8 +91,7 @@ namespace BulkyWeb.DataAccess.Data
                     CategoryId = 3,
                     ImageUrl = ""
                 },
-                new Product
-                {
+                new Product {
                     Id = 6,
                     Title = "Leaves and Wonders",
                     Author = "Laura Phantom",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "02nG+t3H78/6ktJQMr2EnX7CN03DZv8vqMZB+besa758NFLPLtzEoh0E+Dq5jc8bPluqwH1Xpp0LjCCB+zqf7g==",
+  "dgSpecHash": "XJC32z4zH/zA/G43n10ALMo4xiPo6du2UMXHGEfe0ZIUgATKvPcTtXs5kTUG+Luf2gfsUy1+nWQfQik+g34sng==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -74,6 +74,7 @@
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.0-preview.6.23329.11\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.0-preview.6.23329.11.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0-preview.6.23329.11\\microsoft.aspnetcore.identity.ui.8.0.0-preview.6.23329.11.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
@@ -120,7 +121,8 @@
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0-preview.6.23329.7\\microsoft.extensions.dependencymodel.8.0.0-preview.6.23329.7.nupkg.sha512",
-    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.fileproviders.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
+    "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.0-preview.6.23329.11\\microsoft.extensions.fileproviders.embedded.8.0.0-preview.6.23329.11.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.0-preview.6.23329.11\\microsoft.extensions.identity.core.8.0.0-preview.6.23329.11.nupkg.sha512",
     "C:\\Users\\balak\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.0-preview.6.23329.11\\microsoft.extensions.identity.stores.8.0.0-preview.6.23329.11.nupkg.sha512",
