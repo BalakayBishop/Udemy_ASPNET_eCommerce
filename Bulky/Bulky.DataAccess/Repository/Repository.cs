@@ -40,7 +40,7 @@ namespace Bulky.DataAccess.Repository
             return query.ToList();
         }
 
-        public T GetFirstOrDefult(Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             query = query.Where(filter);

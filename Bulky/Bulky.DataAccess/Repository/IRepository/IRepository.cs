@@ -11,7 +11,7 @@ namespace Bulky.DataAccess.Repository.IRepository
     {
         // T - Category or any other kind of model
         IEnumerable<T> GetAll(string? includeProperties = null);
-        T GetFirstOrDefult(Expression<Func<T, bool>> filter, string? includeProperties = null); // this is used for the link operation to be used as param
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null); // this is used for the link operation to be used as param
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);

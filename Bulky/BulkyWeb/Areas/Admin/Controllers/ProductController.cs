@@ -46,7 +46,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
             else
             {
                 // update
-                productVM.Product = _unitOfWork.Product.GetFirstOrDefult(u => u.Id == id);
+                productVM.Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
                 return View(productVM);
             }
             
@@ -81,8 +81,6 @@ namespace BulkyWeb.Areas.Admin.Controllers
 
                     productVM.Product.ImageUrl = @"\images\product\" + fileName;
                 }
-
-                _unitOfWork.Product.Add(productVM.Product);
 
                 if (productVM.Product.Id is 0)
                 {
@@ -122,7 +120,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int? id)
         {
-            var productToBeDeleted = _unitOfWork.Product.GetFirstOrDefult(u => u.Id == id);
+            var productToBeDeleted = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
             if (productToBeDeleted == null) {
                 return Json(new { success = false, message = "Error while deleting"});
             }

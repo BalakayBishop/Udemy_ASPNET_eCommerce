@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kgyZywiHdsaMZzdiRXdnZ7ZxOeBbAa0fAOTADDQtT0Y=",
+  "Hash": "lp+Rd8cvdrQkhRAxtZXkvI+x9jZf2JgGeaht+Ty+2kg=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\4cfb6cbf-202f-4ed4-a710-005ee9d0c50e.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "images/product/4cfb6cbf-202f-4ed4-a710-005ee9d0c50e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\4cfb6cbf-202f-4ed4-a710-005ee9d0c50e.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\images\\product\\86b64e37-f820-4a8b-abd4-6e45fda28620.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "images/product/86b64e37-f820-4a8b-abd4-6e45fda28620.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\86b64e37-f820-4a8b-abd4-6e45fda28620.jpg"
     },
     {
       "Identity": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
