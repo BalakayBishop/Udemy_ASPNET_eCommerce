@@ -788,19 +788,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\balak\\.nuget\\packages\\": {}
+    "C:\\Users\\blake.bishop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
       "projectName": "Bulky.Utility",
-      "projectPath": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
-      "packagesPath": "C:\\Users\\balak\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\obj\\",
+      "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj",
+      "packagesPath": "C:\\Users\\blake.bishop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\balak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\blake.bishop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -820,6 +820,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -847,7 +850,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
       }
     }
   }
