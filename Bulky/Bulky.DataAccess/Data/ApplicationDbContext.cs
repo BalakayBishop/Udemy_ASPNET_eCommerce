@@ -1,5 +1,4 @@
 ﻿using Bulky.Models.Models;
-using BulkyWeb.Models.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

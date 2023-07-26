@@ -1,4 +1,4 @@
-﻿using BulkyWeb.Models.Models;
+﻿using Bulky.Models.Models;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;

@@ -13277,8 +13277,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Bulky.DataAccess >= 1.0.0",
-      "Bulky.Models >= 1.0.0",
-      "Bulky.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0-preview.6.23329.11",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.0-preview.6.23329.11",
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.6.23329.4",
@@ -13316,12 +13314,6 @@
           "projectReferences": {
             "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj": {
               "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj"
-            },
-            "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj": {
-              "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj"
-            },
-            "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
-              "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj"
             }
           }
         }

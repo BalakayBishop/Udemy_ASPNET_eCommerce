@@ -35,42 +35,17 @@
       "Microsoft.Extensions.Caching.Abstractions/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-preview.6.23329.7": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
-        }
-      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0-preview.6.23329.7": {},
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
       "Microsoft.Extensions.FileProviders.Embedded/8.0.0-preview.6.23329.11": {
@@ -97,45 +72,20 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.6.23329.7",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
           "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
       "Microsoft.Extensions.Options/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7",
           "Microsoft.Extensions.Primitives": "8.0.0-preview.6.23329.7"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0-preview.6.23329.7": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.32907"
-          }
-        }
-      }
+      "Microsoft.Extensions.Primitives/8.0.0-preview.6.23329.7": {}
     }
   },
   "libraries": {

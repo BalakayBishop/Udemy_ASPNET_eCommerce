@@ -257,12 +257,6 @@
             "projectReferences": {
               "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.DataAccess\\Bulky.DataAccess.csproj"
-              },
-              "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj": {
-                "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Models\\Bulky.Models.csproj"
-              },
-              "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj": {
-                "projectPath": "C:\\Users\\blake.bishop\\Projects\\Udemy_ASPNET_eCommerce\\Bulky\\Bulky.Utility\\Bulky.Utility.csproj"
               }
             }
           }

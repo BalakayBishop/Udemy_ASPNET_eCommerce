@@ -1,4 +1,4 @@
-namespace BulkyWeb.Models.Models {
+namespace Bulky.Models.Models {
     public class ErrorViewModel {
         public string? RequestId { get; set; }
 
