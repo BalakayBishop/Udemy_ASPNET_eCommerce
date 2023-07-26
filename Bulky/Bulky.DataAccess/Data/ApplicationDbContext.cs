@@ -12,6 +12,7 @@ namespace BulkyWeb.DataAccess.Data {
         // Creating new table in DB 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         // Seeding the DB when created a table in the DB
